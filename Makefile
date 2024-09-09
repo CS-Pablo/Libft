@@ -6,7 +6,7 @@
 #    By: csauron <csauron@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/09/09 19:09:09 by csauron           #+#    #+#              #
-#    Updated: 2024/09/09 22:32:38 by csauron          ###   ########.fr        #
+#    Updated: 2024/09/09 22:42:45 by csauron          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -39,6 +39,6 @@ fclean: 	clean
 re:			fclean all
 
 build-repo:
-			$(shell mkdir $(OBJPATH))
+			@mkdir $(OBJPATH)
 
 .PHONY: all clean fclean re
