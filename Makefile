@@ -6,7 +6,7 @@
 #    By: csauron <csauron@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/09/09 19:09:09 by csauron           #+#    #+#              #
-#    Updated: 2024/09/09 20:09:14 by csauron          ###   ########.fr        #
+#    Updated: 2024/09/09 20:16:43 by csauron          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,9 +20,13 @@ all: $(TARGET)
 $(TARGET):
 		$(CC) $(CFLAGS) -o $@ $(SRCS)
 
-.PHONY: all fclean re
+clean:
+					@rm -f ${OBJS}
 
 fclean:
 		-rm -f $(TARGET)
 
 re: fclean all
+
+.PHONY: all clean fclean re
+
