@@ -6,12 +6,14 @@
 #    By: csauron <csauron@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/09/09 19:09:09 by csauron           #+#    #+#              #
-#    Updated: 2024/09/09 20:18:35 by csauron          ###   ########.fr        #
+#    Updated: 2024/09/09 20:20:30 by csauron          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
+NAME 	= libft.a
+
 OBJFILES = $(SRCS:.c=.o)
-OBJS 	= $(addprefix $(OBJPATH), $(OBJFILES))
+OBJS 	=  $(OBJFILES)
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
 TARGET = libft
@@ -32,7 +34,6 @@ clean:
 
 fclean: 	clean
 					@rm -f $(NAME)
-					@rm -rf ${OBJPATH}
 
 re:			fclean all
 
