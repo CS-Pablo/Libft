@@ -6,7 +6,7 @@
 #    By: csauron <csauron@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/09/09 19:09:09 by csauron           #+#    #+#              #
-#    Updated: 2024/09/09 22:30:08 by csauron          ###   ########.fr        #
+#    Updated: 2024/09/09 22:32:38 by csauron          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ CC = cc
 CFLAGS = -Wall -Wextra -Werror
 TARGET = libft
 SRCS = main.c ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c \
-		ft_isprint.c ft_memchr.c
+		ft_isprint.c ft_memchr.c ft_memcmp.c ft_memcpy.c
 
 HEADER	= libft.h
 
