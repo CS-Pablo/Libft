@@ -6,7 +6,7 @@
 /*   By: csauron <csauron@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/09 19:09:35 by csauron           #+#    #+#             */
-/*   Updated: 2024/09/09 21:11:33 by csauron          ###   ########.fr       */
+/*   Updated: 2024/09/09 21:42:47 by csauron          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,6 @@ void	*ft_calloc(size_t nmemb, size_t size);
 int		ft_isalnum(int c);
 int	    ft_isalpha(int c);
 int	    ft_isascii(int c);
-int	ft_isdigit(int c);
+int    ft_isdigit(int c);
 
 #endif
