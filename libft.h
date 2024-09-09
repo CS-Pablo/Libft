@@ -6,7 +6,7 @@
 /*   By: csauron <csauron@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/09 19:09:35 by csauron           #+#    #+#             */
-/*   Updated: 2024/09/09 22:29:07 by csauron          ###   ########.fr       */
+/*   Updated: 2024/09/09 22:30:12 by csauron          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ int		ft_isalnum(int c);
 int	    ft_isalpha(int c);
 int	    ft_isascii(int c);
 int    ft_isdigit(int c);
-int	ft_isprint(int c);
+int	    ft_isprint(int c);
 void	*ft_memchr(const void *s, int c, size_t n);
 
 #endif
