@@ -6,7 +6,7 @@
 /*   By: csauron <csauron@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/09 19:09:35 by csauron           #+#    #+#             */
-/*   Updated: 2024/09/09 20:50:18 by csauron          ###   ########.fr       */
+/*   Updated: 2024/09/09 21:11:33 by csauron          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <strings.h>
+#include <ctype.h>
 
 int    ft_atoi (char *str);
 void    ft_bzero(void *b, size_t n);
@@ -24,5 +25,6 @@ void	*ft_calloc(size_t nmemb, size_t size);
 int		ft_isalnum(int c);
 int	    ft_isalpha(int c);
 int	    ft_isascii(int c);
+int	ft_isdigit(int c);
 
 #endif
