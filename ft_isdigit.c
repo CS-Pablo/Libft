@@ -6,15 +6,13 @@
 /*   By: csauron <csauron@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/09 20:53:39 by csauron           #+#    #+#             */
-/*   Updated: 2024/09/09 21:19:32 by csauron          ###   ########.fr       */
+/*   Updated: 2024/09/09 21:42:26 by csauron          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isdigit(int c)
+int    ft_isdigit(int c)
 {
-	if (c >= '0' && c <= '9')
-		return (1);
-	return (0);
+    return ((c >= '0' && c <= '9'));
 }
