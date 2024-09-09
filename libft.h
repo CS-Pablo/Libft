@@ -6,7 +6,7 @@
 /*   By: csauron <csauron@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/09 19:09:35 by csauron           #+#    #+#             */
-/*   Updated: 2024/09/09 23:07:36 by csauron          ###   ########.fr       */
+/*   Updated: 2024/09/09 23:16:07 by csauron          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,10 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size);
 size_t	ft_strlcpy(char *dst, const char *src, size_t size);
 size_t	ft_strlen(const char *s);
 int	ft_strncmp(const char *s1, const char *s2, size_t n);
+char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
+char	*ft_strnstr(const char	*big, const char *little, size_t len);
+char	*ft_to_lower(char *str);
+char	*ft_to_upper(char *str);
 
 
 #endif
