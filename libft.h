@@ -6,7 +6,16 @@
 /*   By: csauron <csauron@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/09 19:09:35 by csauron           #+#    #+#             */
-/*   Updated: 2024/09/09 19:09:36 by csauron          ###   ########.fr       */
+/*   Updated: 2024/09/09 19:25:58 by csauron          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+# define LIBFT_H
+
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+#endif
