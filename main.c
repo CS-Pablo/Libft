@@ -6,7 +6,7 @@
 /*   By: csauron <csauron@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/09 19:25:16 by csauron           #+#    #+#             */
-/*   Updated: 2024/09/09 20:02:55 by csauron          ###   ########.fr       */
+/*   Updated: 2024/09/09 21:33:12 by csauron          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,5 @@
 
 int	main()
 {
-	char	*str;
-	*str = " ----+--+1234ab567";
-	printf("%d", ft_atoi(str));
-	
+	write(1, "je suis un beau gosse", 21)
 }
