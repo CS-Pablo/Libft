@@ -6,13 +6,13 @@
 /*   By: csauron <csauron@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/09 19:23:01 by csauron           #+#    #+#             */
-/*   Updated: 2024/09/09 19:25:19 by csauron          ###   ########.fr       */
+/*   Updated: 2024/09/09 19:26:50 by csauron          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_atoi(char *str)
+int ft_atoi(char *str)
 {
 	int	i;
 	int	res;
