@@ -6,7 +6,7 @@
 #    By: csauron <csauron@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/09/09 19:09:09 by csauron           #+#    #+#              #
-#    Updated: 2024/09/09 20:20:30 by csauron          ###   ########.fr        #
+#    Updated: 2024/09/09 20:48:24 by csauron          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,7 @@ OBJS 	=  $(OBJFILES)
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
 TARGET = libft
-SRCS = main.c ft_atoi.c ft_bzero.c
+SRCS = main.c ft_atoi.c ft_bzero.c ft_isalnum.c
 
 HEADER	= libft.h
 
