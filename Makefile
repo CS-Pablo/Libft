@@ -6,14 +6,14 @@
 #    By: csauron <csauron@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/09/09 19:09:09 by csauron           #+#    #+#              #
-#    Updated: 2024/09/09 19:21:48 by csauron          ###   ########.fr        #
+#    Updated: 2024/09/09 19:22:16 by csauron          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
 TARGET = libft
-SRCS = main.c 
+SRCS = main.c ft_atoi.c
 
 all: $(TARGET)
 
