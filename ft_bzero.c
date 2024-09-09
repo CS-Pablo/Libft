@@ -6,18 +6,18 @@
 /*   By: csauron <csauron@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/09 19:29:51 by csauron           #+#    #+#             */
-/*   Updated: 2024/09/09 19:31:21 by csauron          ###   ########.fr       */
+/*   Updated: 2024/09/09 20:08:09 by csauron          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void    ft_bzero(void *b, size_t n)
+void    ft_bzero(void *s, size_t n)
 {
 	unsigned char	*dest;
 	size_t	i;
 
-	dest = b;
+	dest = s;
 	i = 0;
     
 	while (i++ < n)
