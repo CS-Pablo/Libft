@@ -6,7 +6,7 @@
 #    By: csauron <csauron@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/09/09 19:09:09 by csauron           #+#    #+#              #
-#    Updated: 2024/09/09 23:06:07 by csauron          ###   ########.fr        #
+#    Updated: 2024/09/09 23:18:01 by csauron          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,7 @@ TARGET = libft
 SRCS = main.c ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c \
 		ft_isprint.c ft_memchr.c ft_memcmp.c ft_memcpy.c ft_memmove.c \
 		ft_memset.c ft_strchr.c ft_strdup.c ft_strlcat.c ft_srtlcpy.c \
-		ft_strlen.c ft_strncmp.c
+		ft_strlen.c ft_strncmp.c ft_strrchr.c ft_tolower.c ft_toupper.c
 
 HEADER	= libft.h
 
