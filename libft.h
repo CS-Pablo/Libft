@@ -6,7 +6,7 @@
 /*   By: csauron <csauron@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/09 19:09:35 by csauron           #+#    #+#             */
-/*   Updated: 2024/09/09 23:16:07 by csauron          ###   ########.fr       */
+/*   Updated: 2024/09/10 16:46:23 by csauron          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 #include <stdlib.h>
 #include <strings.h>
 #include <ctype.h>
-#include <xlocale.h>
+
 
 int    ft_atoi (char *str);
 void    ft_bzero(void *b, size_t n);
