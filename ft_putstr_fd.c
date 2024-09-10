@@ -6,7 +6,19 @@
 /*   By: csauron <csauron@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/10 17:14:52 by csauron           #+#    #+#             */
-/*   Updated: 2024/09/10 17:14:54 by csauron          ###   ########.fr       */
+/*   Updated: 2024/09/10 17:29:53 by csauron          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
+void	ft_putstr_fd(char *s, int fd)
+{
+	if (!s)
+		return ;
+	while (*s)
+	{
+		ft_putchar_fd(*s, fd);
+		s++;
+	}
+}
