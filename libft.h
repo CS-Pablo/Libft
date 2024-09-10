@@ -6,7 +6,7 @@
 /*   By: csauron <csauron@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/09 19:09:35 by csauron           #+#    #+#             */
-/*   Updated: 2024/09/10 17:23:26 by csauron          ###   ########.fr       */
+/*   Updated: 2024/09/10 17:25:48 by csauron          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,6 +50,10 @@ static char	**ft_malloc_error(char **tab);
 static size_t	ft_nb_words(char const *s, char c);
 static void	ft_get_next_word(char **next_word, size_t *next_word_len, char c);
 char	**ft_split(char const *s, char c);
+static	char	*ft_swap(char *tab, int size);
+static	char	*ft_is_zero(char *tab);
+static	int	ft_len(int c);
+char	*ft_itoa(int n);
 
 
 #endif
