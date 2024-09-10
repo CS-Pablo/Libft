@@ -6,7 +6,7 @@
 /*   By: csauron <csauron@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/09 19:25:16 by csauron           #+#    #+#             */
-/*   Updated: 2024/09/09 21:42:15 by csauron          ###   ########.fr       */
+/*   Updated: 2024/09/10 16:59:00 by csauron          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,5 @@
 
 int	main()
 {
-	write(1, "je suis un beau gosse", 21)
+	write(1, "je suis un beau gosse", 21);
 }
