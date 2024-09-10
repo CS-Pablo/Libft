@@ -6,7 +6,7 @@
 /*   By: csauron <csauron@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/09 19:09:35 by csauron           #+#    #+#             */
-/*   Updated: 2024/09/10 16:59:18 by csauron          ###   ########.fr       */
+/*   Updated: 2024/09/10 17:23:26 by csauron          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,6 +43,13 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
 char	*ft_strnstr(const char	*big, const char *little, size_t len);
 char	*ft_to_lower(char *str);
 char	*ft_to_upper(char *str);
+char	*ft_substr(char const *s, unsigned int start, size_t len);
+char	*ft_strjoin(char const *s1, char const *s2);
+char	*ft_strtrim(char const *s1, char const *set);
+static char	**ft_malloc_error(char **tab);
+static size_t	ft_nb_words(char const *s, char c);
+static void	ft_get_next_word(char **next_word, size_t *next_word_len, char c);
+char	**ft_split(char const *s, char c);
 
 
 #endif
