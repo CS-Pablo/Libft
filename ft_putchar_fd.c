@@ -6,7 +6,13 @@
 /*   By: csauron <csauron@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/10 17:15:32 by csauron           #+#    #+#             */
-/*   Updated: 2024/09/10 17:15:33 by csauron          ###   ########.fr       */
+/*   Updated: 2024/09/10 17:29:07 by csauron          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
+void	ft_putchar_fd(char c, int fd)
+{
+	write (fd, &c, 1);
+}
