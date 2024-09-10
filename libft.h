@@ -6,7 +6,7 @@
 /*   By: csauron <csauron@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/09 19:09:35 by csauron           #+#    #+#             */
-/*   Updated: 2024/09/10 17:25:48 by csauron          ###   ########.fr       */
+/*   Updated: 2024/09/10 17:26:43 by csauron          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,6 +54,6 @@ static	char	*ft_swap(char *tab, int size);
 static	char	*ft_is_zero(char *tab);
 static	int	ft_len(int c);
 char	*ft_itoa(int n);
-
+char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 
 #endif
